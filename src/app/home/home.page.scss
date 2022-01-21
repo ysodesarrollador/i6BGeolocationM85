@@ -1,0 +1,61 @@
+.divToolbar{
+  display: flex;
+  width: 100%;
+  padding-right: 8px;
+}
+ion-fab-button{
+  height: 35px;
+  width: 35px;
+}
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+code-input{
+  --text-security-type: disc;
+    --item-spacing: 10px;
+    --item-height: 3em;
+    --item-border: 3px solid #fff;
+    --item-border-bottom: 3px solid #fff;
+    --item-border-has-value: 3px solid #fff;
+    --item-border-bottom-has-value: 3px solid #fff;
+    --item-border-focused: 3px solid #fff;
+    --item-border-bottom-focused: 3px solid #fff;
+    --item-shadow-focused: 0px 1px 5px #fff;
+    --item-border-radius: 12px;
+    --item-background: transparent;
+    --color: #fff;
+    display: flex;
+    transform: translateZ(0);
+    font-size: larger;
+    color: var(--color);
+}
+/* .activateWatchOn{
+  background-color: var(--ion-color-danger);;
+}
+.activateWatchOn{
+  background: var(--ion-color-primary);;
+} */
