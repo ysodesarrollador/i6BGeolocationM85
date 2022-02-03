@@ -10,7 +10,7 @@ import { BehaviorSubject, Observable } from 'rxjs';
 const config: BackgroundGeolocationConfig = {
   desiredAccuracy: 10,
   stationaryRadius: 20,
-  distanceFilter: 50,
+  distanceFilter: 2000,
   debug: false, //  enable this hear sounds for background-geolocation life-cycle.
   stopOnTerminate: false, // enable this to clear background location settings when the app terminates,
   notificationTitle: "Distancia estimada",
